@@ -1,0 +1,8 @@
+package com.phoenix.billingservice;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface CustomerBillingRepository extends JpaRepository<Customer, Long> {
+}
